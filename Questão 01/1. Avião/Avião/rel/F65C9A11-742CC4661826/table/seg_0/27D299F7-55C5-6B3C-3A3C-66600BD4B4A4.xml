@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27D299F7-55C5-6B3C-3A3C-66600BD4B4A4" name="Tipo_De_Avião">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>7B483274-D2B5-944F-C259-4952E2AB406E</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome_tipo" id="6B26DDED-1CF5-E912-41D3-E96D213A030B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>980E950C-EE7E-6D15-C2CC-AD98E6AAC0BC</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="empresa" id="628AC0F1-4551-0753-DADB-FF5839EAFD19">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>5F80A2BC-9B35-45F4-8C7E-AD5C9B61C5FE</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="configuracoes" id="718DA14E-C904-8450-B9A2-836111BD653B">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>D126E956-2C5A-E031-2786-6F9CFC53206C</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

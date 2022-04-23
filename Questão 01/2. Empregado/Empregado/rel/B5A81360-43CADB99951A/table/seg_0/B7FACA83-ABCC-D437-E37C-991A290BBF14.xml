@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7FACA83-ABCC-D437-E37C-991A290BBF14" name="Dependentes">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>D392C5C0-DE82-F8D2-A175-3654358BD235</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome_dependente" id="CDE5150B-A23C-7E1E-AD3B-D07F250277C0">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>65057B70-A34D-6C1D-D8BB-D74426C6BACD</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="E66C07E3-F413-4298-0A2B-94276BCD77DB">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>1A1C449B-1F16-7472-A4B1-0CA0D143073A</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="68CF0685-30D8-5915-11CA-96EE790E4F23">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>0458B8C8-8741-96DF-8887-8795F829498A</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parentesco" id="DDDB9183-3ABE-7029-280E-B3B107B17C90">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>784835E1-2798-C42B-A332-D0921079B9AD</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empregado_empregado" id="0943DDC4-AB65-A202-7897-C4EF3406A79C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>94BE0D2C-9C9E-BD11-D4F9-746DA7544195</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E201347-9DD3-5DFB-23A5-330DB2C4BD51" referredColumn="E806BFD1-5D65-DF44-E578-443F058C5DCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4D93C80-9709-93DB-E1E4-5C1CDC3F4D30" name="Dependentes_Empregado_FK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:46:46 UTC</createdTime>
+<generatorID>D5707ED7-6DD1-EF8B-10FB-11DE709CD9DA</generatorID>
+<ownerDesignName>Empregado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0943DDC4-AB65-A202-7897-C4EF3406A79C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

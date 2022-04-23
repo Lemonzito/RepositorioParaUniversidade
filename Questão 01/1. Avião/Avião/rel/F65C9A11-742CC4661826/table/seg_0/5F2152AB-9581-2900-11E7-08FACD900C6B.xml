@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F2152AB-9581-2900-11E7-08FACD900C6B" name="Aeroporto">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>08DA3350-5394-B623-3E2C-2BB99FFF3D50</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_aereo" id="CB9E49F2-2DC3-02A3-F0B1-C3445DFB1F06">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>D004A8D4-ADDE-3B24-0C99-65353B93181C</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="1CAC12C5-EF81-6E65-DE9D-2F9D94F8EFC3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>29DA7323-CCBE-3609-8F70-3E4253C677C2</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="43E9813E-26B6-87FE-60E4-D066985443E4">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>C203EFFB-435C-4E23-11DC-643BAB48A8BF</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="ADB91431-79D0-E4D3-9887-5DB288B12167">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:22:16 UTC</createdTime>
+<generatorID>4DD1A22F-8D03-6D2F-0759-A6F7C96A5824</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE29A765-6C2B-5C1A-8167-A80B9B08AF37" name="Aeroporto_PK">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:32:02 UTC</createdTime>
+<generatorID>A98E52AD-3FAB-7FBA-9CC6-67E651CD5996</generatorID>
+<ownerDesignName>Avião</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB9E49F2-2DC3-02A3-F0B1-C3445DFB1F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

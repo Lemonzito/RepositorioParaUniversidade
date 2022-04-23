@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31A4B94B-54A7-2D1C-A74A-14FD8684AA37" name="Estudante">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>0BD3B5B6-24D1-3E02-8425-A4E9F97FE0C6</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="primeiro_nome" id="E4E0BE0E-BEA4-8291-8B91-78DCD3DB10E7">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>3C058CEB-EEBD-FB97-F6A2-49CE341B3360</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ultimo_nome" id="2C912868-280D-4A47-10C1-ED5D72F9C958">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>E31369FC-9DBC-5DEC-F4C3-D41386B9E98C</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="E0B8787A-ADA7-1464-9D62-9CD002C7EE3E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>D88D0233-5423-69FF-1C93-B9F08B0E1B30</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rua" id="37008534-325F-7799-C46C-2A6806D672CB">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>90C0B8DE-02DB-D967-5C10-227C62445540</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="D519280A-1B99-5022-9EDA-FF09785D2547">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>F949A190-7B01-D93E-7C9B-9A333D369750</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="DA170BB8-91DE-629E-53EC-296AF12FB733">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>26099583-E512-AB17-A534-FAB6746989C4</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="F6F2D772-DD6D-0295-CE7C-AD612517099E">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:58:32 UTC</createdTime>
+<generatorID>60992A4F-D5FB-B265-141D-FD8920F48BC3</generatorID>
+<ownerDesignName>Estudante</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

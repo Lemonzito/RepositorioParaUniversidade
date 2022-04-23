@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BD3B5B6-24D1-3E02-8425-A4E9F97FE0C6" name="Estudante">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:50:26 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="primeiro_nome" id="3C058CEB-EEBD-FB97-F6A2-49CE341B3360">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:50:34 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ultimo_nome" id="E31369FC-9DBC-5DEC-F4C3-D41386B9E98C">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:51:18 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="D88D0233-5423-69FF-1C93-B9F08B0E1B30">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:51:35 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rua" id="90C0B8DE-02DB-D967-5C10-227C62445540">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:51:52 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="F949A190-7B01-D93E-7C9B-9A333D369750">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:52:15 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="26099583-E512-AB17-A534-FAB6746989C4">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:54:58 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="60992A4F-D5FB-B265-141D-FD8920F48BC3">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:55:25 UTC</createdTime>
+<ownerDesignName>Estudante</ownerDesignName>
+<engineerTo>
+<item key="4A0555C5-F86D-09BE-B7DC-A091E5028BC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

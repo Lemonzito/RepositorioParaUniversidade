@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Avião" id="8F41F565-0D8C-646B-DD3E-E120C03DBD99" version="3.5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 22:36:49 UTC</createdTime>
+<ownerDesignName>Avião</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8F41F565-0D8C-646B-DD3E-E120C03DBD99</designId>
+</OSDM_Design>

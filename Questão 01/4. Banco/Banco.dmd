@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banco" id="DD1B38B1-262F-946B-49AE-767B87BDD19A" version="3.5">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-20 00:01:26 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DD1B38B1-262F-946B-49AE-767B87BDD19A</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="emprega_possui_dependentes" directorySegmentName="seg_0" id="D5707ED7-6DD1-EF8B-10FB-11DE709CD9DA">
+<createdBy>Aluno</createdBy>
+<createdTime>2022-04-19 23:44:53 UTC</createdTime>
+<ownerDesignName>Empregado</ownerDesignName>
+<engineerTo>
+<item key="B5A81360-424F-5CD9-F671-43CADB99951A" value="true"/>
+</engineerTo>
+<sourcePk>4C57BAAE-473E-2DCD-6744-BF4F3B08CD1E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C1F0D7D2-D2F1-A1FF-8C48-96D822C4511C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D392C5C0-DE82-F8D2-A175-3654358BD235</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
